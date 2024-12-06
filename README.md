@@ -1,2 +1,3 @@
 # TDD_Incubyte
-TDD_ Assessment
+ step 1 Handle the Simplest Case (Empty String)
+step 2 
