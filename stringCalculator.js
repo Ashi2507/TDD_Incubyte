@@ -1,5 +1,8 @@
 function add(numbers) {
-  return 0; // Simplest case for an empty string
+  if (!numbers) return 0; // Empty string
+
+  const nums = numbers.split(',').map(Number); // Split and convert to numbers
+  return nums.reduce((sum, num) => sum + num, 0); // Sum all numbers
 }
 
 module.exports = add;
